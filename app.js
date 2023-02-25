@@ -16,8 +16,6 @@ function clock(){
         document.body.style.backgroundImage = `url('../images/morning.jpg')`
         timeIcon.style.display = "block"
         moonIcon.style.display = "none"
-    } else if (hour >= 13 && hour < 23) {
-        amPm.innerHTML = "PM"
     } else if (hour >= 12 && hour < 16) {
         document.body.style.backgroundImage = `url('../images/day-two.jpg')`
         timeIcon.style.display = "block"
