@@ -23,8 +23,8 @@ function clock(){
     } else if (hour >= 17 && hour < 20) {
         dayTime.innerHTML = "GOOD EVENING, IT’S CURRENTLY"
         document.body.style.backgroundImage = `url('../images/evening.jpg')`
-        timeIcon.style.display = "block"
-        moonIcon.style.display = "none"
+        timeIcon.style.display = "none"
+        moonIcon.style.display = "block"
     } else if (hour >= 21 && hour < 3) {
         dayTime.innerHTML = "GOOD NIGHT, IT’S CURRENTLY"
         document.body.style.backgroundImage = `url('../images/night.jpg')`
