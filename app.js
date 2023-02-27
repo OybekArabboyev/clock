@@ -16,7 +16,8 @@ function clock(){
         document.body.style.backgroundImage = `url('../images/morning.jpg')`
         timeIcon.style.display = "block"
         moonIcon.style.display = "none"
-    } else if (hour >= 12 && hour < 16) {
+    } else if (hour >= 12 && hour < 17 ) {
+        dayTime.innerHTML = "GOOD AFTERNOON, IT’S CURRENTLY"
         document.body.style.backgroundImage = `url('../images/day-two.jpg')`
         timeIcon.style.display = "block"
         moonIcon.style.display = "none"
@@ -36,6 +37,7 @@ function clock(){
         timeIcon.style.display = "block"
         moonIcon.style.display = "none"
     } else {
+        dayTime.innerHTML = "GOOD NIGHT, IT’S CURRENTLY"
         document.body.style.backgroundImage = `url('../images/night.jpg')`
         timeIcon.style.display = "none"
         moonIcon.style.display = "block"
